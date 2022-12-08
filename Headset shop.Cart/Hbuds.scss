@@ -1,0 +1,43 @@
+.buds-main{
+   margin-top: 50px;
+}
+.buds{
+& .container {
+   display: grid;
+    grid-template-columns: 250px max-content;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    background: rgb(24, 23, 23);
+    color: rgb(226, 219, 219);
+    border-radius: 0.5rem;
+}   
+
+}
+.buds-img{
+    img{
+    width: 320px;
+ }   
+} 
+.buds-text{
+    text-align: left;
+ &   h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+
+ }  
+ & span{
+    font-weight: 400;
+ } 
+ &  p{
+    margin: 1rem 0 1rem;
+ }
+ & .btn{
+    background: #070707;
+    text-align: left;
+ }
+ &  .btn:hover{
+    background:#0c0c0c;
+ }
+}

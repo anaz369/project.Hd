@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background:  rgb(236, 227, 227);
+}
+section{
+    padding: 4rem 0 3rem;
+}
+.container{
+    max-width: 1150px;
+    width: 100%;
+    margin: auto;
+    background: rgb(243, 240, 240);
+    box-shadow: 3px 35px 35px rgb(155, 145, 145) ;
+    border-radius: 1px;
+
+}
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background:hwb(0 95% 5%);
+    box-shadow: 0 1px 2px 3px rgb(15 54 53/10%);
+    transition: 0.2s;   
+
+}
+.logo img{
+    width: 41px;
+    margin-left: 150px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    background: white;
+}
+.fa-solid{
+    cursor: pointer;
+    display: none;
+}
+.navbar{
+    display: flex;
+    column-gap: 2rem;
+    list-style: none;
+    margin-right: 150px;
+ &  a{
+    font-size: 1rem;
+    font-weight: 500;
+    background: linear-gradient(#161616,#dddcfa);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    cursor: pointer;
+    text-decoration: none;
+
+ }   
+
+}
+a:hover{
+    color:var(--textcolor)
+}
+@media(max-width:768px){
+    .logo img{
+        width:30px;
+        margin-left: 20px;
+        
+    }
+    .fa-solid{
+        display: initial;
+        z-index: 150;
+        margin-right: 20px;
+        
+    }
+    .navbar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background:white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: 0 5px 8px rgb(15 54 55/10%);
+        width: 100%;
+        clip-path: circle(0% at 50% 0);
+        transition: 0.5s;
+    }
+    .navbar{
+  &      a{
+        display: block;
+        padding: 12px;
+
+        }
+        
+    }
+}
+.active{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 5px 8px rgb(15 54 55/10%);
+    width: 100%;
+    clip-path: circle(144% at 50% 0);
+}
+.nav ul li .fa-solid{
+    display: initial;
+}
+.nav ul li span{
+    background: rgb(247, 4, 4);
+    padding: 2px;
+    color: white;
+    margin-left: 2px;
+    position: relative;
+    top: -9px;
+    border-radius: 5px;
+}
