@@ -1,0 +1,58 @@
+const HeadphoneData = [
+  {
+    id: 1,
+    model: "Beats solo 1",
+    price: "349",
+    img: "abc.png",
+    amount: 1,
+    img1: "ab4.jpg",
+    des: "These earphones feature two listening modes, Active Noise Cancelling (ANC) and Transparency mode, to give you total control of your sound. Each earbud has up to 8 hours of listening time? with two additional charges provided by its pocket-sized charging case to give you up to 24 hours of combined playback.",
+  },
+  {
+    id: 2,
+    model: "Beats solo 2",
+    price: "349",
+    img: "hd1.png",
+    amount: 1,
+    img1: "ab5.jpg",
+    des: "These earphones feature two listening modes, Active Noise Cancelling (ANC) and Transparency mode, to give you total control of your sound. Each earbud has up to 8 hours of listening time? with two additional charges provided by its pocket-sized charging case to give you up to 24 hours of combined playback.",
+  },
+  {
+    id: 3,
+    model: "Beats solo 3",
+    price: "467",
+    img: "hd3.png",
+    amount: 1,
+    img1: "ab6.jpg",
+    des: "These earphones feature two listening modes, Active Noise Cancelling (ANC) and Transparency mode, to give you total control of your sound. Each earbud has up to 8 hours of listening time? with two additional charges provided by its pocket-sized charging case to give you up to 24 hours of combined playback.",
+  },
+  {
+    id: 4,
+    model: "beats solo 4",
+    price: "349",
+    img: "hd5.png",
+    img1: "ab7.jpg",
+    amount: 1,
+    des: "These earphones feature two listening modes, Active Noise Cancelling (ANC) and Transparency mode, to give you total control of your sound. Each earbud has up to 8 hours of listening time? with two additional charges provided by its pocket-sized charging case to give you up to 24 hours of combined playback.",
+  },
+  {
+    id: 5,
+    model: "Beats solo 5",
+    price: "349",
+    img: "hd4.png",
+    amount: 1,
+    img1: "ab8.jpg",
+    des: "These earphones feature two listening modes, Active Noise Cancelling (ANC) and Transparency mode, to give you total control of your sound. Each earbud has up to 8 hours of listening time? with two additional charges provided by its pocket-sized charging case to give you up to 24 hours of combined playback.",
+  },
+  {
+    id: 6,
+    model: "Beats solo 6",
+    price: "349",
+    img: "hd6.png",
+    amount: 1,
+    img1: "ab9.jpg",
+    des: "These earphones feature two listening modes, Active Noise Cancelling (ANC) and Transparency mode, to give you total control of your sound. Each earbud has up to 8 hours of listening time? with two additional charges provided by its pocket-sized charging case to give you up to 24 hours of combined playback.",
+  },
+];
+
+export default HeadphoneData;
